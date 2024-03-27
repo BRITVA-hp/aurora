@@ -1,0 +1,68 @@
+.main
+  background: url("../img/main/img.png") no-repeat calc(100% + 214px) -210px
+  padding: 68px 20px 132px
+  &__breadcrumbs
+    margin-bottom: 45px
+  &__title
+    font-family: "Montserrat", sans-serif
+    font-size: 100px
+    line-height: 105px
+    font-weight: 800
+    margin-bottom: 60px
+  &__items
+    display: flex
+    gap: 55px
+    margin-bottom: 150px
+  &__card
+    display: flex
+    align-items: flex-start
+    gap: 30px
+    &--2
+      .main__card__text
+        color: #338c9d
+    &__img
+      width: 140px
+      min-width: 140px
+      height: 140px
+      position: relative
+      &::before
+        content: ''
+        position: absolute
+        left: 0
+        top: 0
+        width: 128px
+        height: 128px
+        border-radius: 50%
+        background: #ededed
+      img
+        position: absolute
+        max-width: none
+        right: 0
+        bottom: 0
+    &__text
+      font-family: "Montserrat", sans-serif
+      font-size: 22px
+      line-height: 32px
+      color: #41a4b7
+      font-weight: 700
+      padding-top: 50px
+      max-width: 265px
+  &__row
+    display: flex
+    align-items: flex-start
+    gap: 85px
+  &__box
+    &__title
+      font-family: "Montserrat", sans-serif
+      font-size: 45px
+      line-height: 55px
+      font-weight: 800
+      margin-bottom: 34px
+    &__text
+      font-family: "CenturyGothic", sans-serif
+      font-size: 28px
+      line-height: 37px
+      color: #555454
+      max-width: 640px
+  &__aurora
+    padding-top: 15px
